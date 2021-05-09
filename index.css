@@ -1,0 +1,92 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-logo{
+    border-radius: 154%;
+    width:80%;
+    height:100px;
+
+}
+.brand{
+    padding: 0px;
+    margin: 10px;
+    font-size: 25px;
+   
+    font-family: 'Oswald', sans-serif;
+}
+#logo{
+    width: 100px;
+}
+.navbar{
+    background: url('https://www.gsquaretech.com/wp-content/uploads/2020/01/EngineeringServices.jpg');
+    position: absolute;
+    background-size: cover;
+     background-repeat: no-repeat; 
+     /* width: 100%;
+    height: 100%; */
+    z-index: 1;
+    opacity: 0.89;
+
+}
+.nav-link:hover{
+    background-color: black; 
+    color: red;
+    margin: 5px;
+    font-size: 1s4px;
+    border: 0.5px solid brown;
+    border-radius: 5px;
+    background-color: black;
+}
+.navlink{
+    color:white
+}   
+.form-inline{
+    display: flex;
+    margin: 10px;
+}
+.jumbotron{
+    margin: auto;
+    background-color:rgb(197, 95, 115);
+    text-align: center;
+}
+.card-body{
+    background-color:rgb(197, 95, 115);
+}
+.card-footer{
+    background-color: darkturquoise;
+    color: darkviolet;
+} .col-12{
+    text-align: center;
+    color: white;
+} 
+#contaner{
+    display: flex;
+    background-color: black;
+   
+}
+.col-4{
+    text-align: center;
+    color: white;
+}
+#jumbotron{
+    text-align: center;
+}
+#contaner2{
+    text-align: center;
+}
+.laptop{
+    border-radius: 40%;
+    width: 100px;
+}
+.form{
+    width: 30%;
+    margin: auto;
+    background-color: lightblue;
+    padding-left: 50px;
+}
+.button{
+    background-color: brown;
+}
